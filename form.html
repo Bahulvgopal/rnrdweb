@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Title Here</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="#dtl" onclick="smoothScroll(event)">Order Details</a>
+    <a href="index.html">Services</a>
+    <a href="index.html">Social Media</a>
+    <a href="#trm" onclick="smoothScroll(event)">Contact</a>
+  </div>
+
+  <span class="openbtn" onclick="openNav()">&#9776;</span>
+
+  <div class="topnav">
+    <img class="c_logo" src="images/channel_logo.jpg" alt="">
+    <a style="text-decoration: none" href="index.html">
+    <h1 class="namer">Renjith Nooranad</h1></a>
+  </div>
+
+  <div class="main">
+    <form id="orderForm">
+      <h1 style="color: white" id="dtl">Enter Your Details</h1><br>
+     
+     <label style="padding-top: 40px" for="customerName">Name:</label><br>
+     <input type="text" id="customerName" name="customerName" placeholder="your name" required><br>
+     
+     <label for="age">Age:</label><br>
+     <input type="number" id="age" placeholder="age" name="age" required><br>
+     
+      <label for="address">Address:</label><br>
+      <input type="text" id="address" name="address" placeholder="Address" required><br>
+      
+       <label for="productName">Product Name:</label><br>
+      <select id="productName" name="productName" required>
+        <option value="Select">Select</option>
+        <option value="Pencil Drawing">Pencil Drawing</option>
+        <option value="Colour Pencil Drawing">Colour Pencil</option>
+        <option value="Portrait Drawing">Portrait Drawing</option>
+         <option value="Couple Drawing">Couple Drawing</option>
+          <option value="Digital Art">Digital Art</option>
+           <option value="Stencil Art">Stencil Art</option>
+            <option value="Acrylic Painting">Acrylic painting</option>
+      </select><br>
+      
+      <label for="phoneNumber">Phone Number:</label><br>
+      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="phone number" required><br>
+      
+
+      
+      
+      
+      <div class="note">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" style="color: white;padding-top: 18px" class="bi bi-truck" viewBox="0 0 16 16">
+  <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+</svg>
+<h1 style="color: whitesmoke">Safe Delivery</h1>
+<p style="color: white">You will get your artwork delivered always on time.</p>
+      </div>
+      <div class="note_2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"  class="bi bi-box-seam-fill" style="color: white;padding-top: 20px" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+</svg>
+<h1 style="color: white">Shipping</h1>
+<p style="color: white">shipping fee may change based on your location.</p>
+      </div>
+      <div class="note_3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" style="color: white;padding-top: 10px" height="20" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+  <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+  <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
+</svg>
+<h1>Additional Charge</h1>
+<p>Additional charges for changes in order and framing.</p>
+      </div>
+      <div>
+        <p style="color: white; text-align: center;margin-bottom: 2rem;" ><span style="font-weight: bolder">Note </span> : Please send the photo you wish to have sketched via WhatsApp after confirming your order.</p>
+      </div>
+      <button class="btn_main" type="submit" onclick="sendWhatsAppMessage()">Order Now</button>
+    </form>
+  </div>
+<div class="terms" id="trm">
+  <img src="images/channel_logo.jpg" alt="">
+  <p>Handmade portrait sketch - a beautiful gift for your loved ones.</p>
+  <h1>Policies</h1>
+  <a href="terms.html">
+  <p>Terms and conditions</p></a>
+  <a href="terms.html">
+  <p>Return and Refund Policy</p></a>
+  <a href="terms.html">
+  <p>Privacy Policy</p></a>
+  <h1>Contact Me</h1>
+  <div id="contactForm">
+    <h2>Contact Owner</h2>
+    <form id="contact" method="post" action="mailto: bahulvgopal@gmail.com" enctype="text/plain">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label for="subject">Subject:</label><br>
+      <input type="text" id="subject" name="subject" required><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      
+      <button class="butn" type="submit">Send Message</button>
+    </form>
+  </div>
+  <h1 class="info">Contact info</h1>
+  <p>Pathanamthitta,Kerala-690504</p>
+  <p><span style= "font-weight: bold">Email</span> : renjithnrd3@gmail.com</p>
+  <div style="border-top: 2px solid white;margin-top: 20px">
+    <p style="color: white">Copyright © 2021 | Renjith Nooranad Arts | All Rights Reserved</p>
+  </div>
+</div>
+<div class="wtsapp">
+  <button onclick="redirectToWhatsApp()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="color: white" class="bi bi-whatsapp" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+    </svg></button>
+</div
+  <script src="script.js"></script>
+  <script>
+    // Get the element to scale
+var wtsappElement = document.querySelector('.wtsapp');
+
+// Add event listener for touchstart event
+wtsappElement.addEventListener('touchstart', function() {
+  // Scale to 1.2 when touched
+  this.style.transform = 'scale(1.2)';
+});
+
+// Add event listener for touchend event
+wtsappElement.addEventListener('touchend', function() {
+  // Scale back to 1 when finger is lifted
+  this.style.transform = 'scale(1)';
+});
+
+
+  </script>
+</body>
+
+</html>

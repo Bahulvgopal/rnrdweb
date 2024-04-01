@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#hom" onclick="smoothScroll(event)">Home</a>
+    <a href="#about" onclick="smoothScroll(event)">About</a>
+    <a href="#wrk_div" onclick="smoothScroll(event)">Services</a>
+    <a href="#social" onclick="smoothScroll(event)">Social Media</a>
+    <a href="#cont" onclick="smoothScroll(event)">Contact</a>
+  </div>
+
+  <span style="font-size:29px;cursor:pointer;margin-right: 1rem; float: right;color: white;position: fixed" onclick="openNav()">&#9776;</span>
+
+
+<div class="topnav" id="hom">
+  
+  <img class="c_logo" src="images/channel_logo.jpg" alt="">
+  <h1 class="namer">Renjith Nooranad</h1>
+</div>
+<div class="quotes_div">
+  <h1 id="dynamicText" style="color: white">"The true work of art is but a shadow of the divine perfection." - Michelangelo Buonarroti</h1>
+  <a href="form.html"><button class="bag_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" style="padding-right: 10px" viewBox="0 0 16 16">
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+</svg>Order Now</button></a>
+</div>
+
+
+
+
+
+<div class="about container">
+  <h1 style="color: white" class="welcome">Welcome to <br>Renjith Nooranad Arts</h1>
+  <h1 class="prof" style="color: white">Professional Sketch Artist in
+Kerala since 2021</h1>
+<p>Your loved one’s special day is approaching, and if you’re seeking the finest portrait pencil sketch artist for a personalized and handmade gift, Renjith Nooranad Arts is the ideal choice.</p>
+<p style="padding-bottom: 25px">We offer secure delivery of your sketch from Kerala to any location in India, ensuring it reaches the specified address safely.</p>
+
+<button style="position: absolute" onclick="redirectToWhatsApp()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" style="color: white;padding-right: 5px" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg>Order on Whatsapp</button>
+</div>
+<div class="brush">
+  <img src="images/brushstroke.png" alt="">
+  <h1 style="color: white;font-family: serif;margin-left: 100px;padding-left: 50px;margin-right: 80px;padding-left: -30px">Gallery</h1>
+</div>
+<div class="carousel">
+  <div class="c_img">
+    <img class="img1 image" src="images/featured1.png" alt="">
+  </div>
+  <div class="c_img">
+    <img class="img2 image" src="images/featured2.png" alt="">
+  </div>
+  <div class="c_img ">
+    <img class="img3 image" src="images/featured3.png" alt="">
+  </div>
+    <div class="c_img">
+    <img class="img4 image" src="images/product4.png" alt="">
+  </div>
+   <div class="c_img">
+    <img class="img5 image" src="images/img1.jpeg" alt="">
+  </div>
+  <div class="c_img">
+    <img class="img6 image" src="images/img2.jpeg" alt="">
+  </div>
+</div>
+
+<div class="wrk_div" id="wrk_div">
+  
+  <h3 class="wrk">Medium</h3>
+  
+  <div class="wrk_clm">
+    <img class="wrk_img" src="images/featured1.png" alt="">
+    <h2 class="wrk_name">Pencil Drawing</h2>
+    <h2 class="wrk_rate">700/-</h2>
+    <a href="form.html">
+    <button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>Buy Now</button></a>
+
+  </div>
+  
+   <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/featured2.png" alt="">
+    <h2 class="wrk_name">Colour Pencil</h2>
+    <h2 class="wrk_rate">1000/-</h2>
+    <a href="form.html">
+    <button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>Buy Now</button></a>
+  </div>
+    <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/featured3.png" alt="">
+    <h2 class="wrk_name">Digital Art</h2>
+    <h2 class="wrk_rate">900/-</h2>
+       <a href="form.html"> <button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>Buy Now</button></a>
+  </div>
+  
+ <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/product1.jpg" alt="">
+    <h2 class="wrk_name">Portrait Drawing</h2>
+    <h2 class="wrk_rate">700/-</h2>
+      <a href="form.html"> <button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>Buy Now</button></a>
+  </div>
+  
+  <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/product2.jpg" alt="">
+    <h2 class="wrk_name">Couple Drawing</h2>
+    <h2 class="wrk_rate">1100/-</h2>
+       <a href="form.html"> <button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>Buy Now</button></a>
+  </div>
+  
+  <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/product4.png" alt="">
+    <h2 class="wrk_name">Stencil Art</h2>
+    <h2 class="wrk_rate">600/-</h2>
+    <a href="form.html"><button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+      </svg>Buy Now</button></a>
+  </div>
+  <div class="wrk_clm" style="margin-top: 25px">
+    <img class="wrk_img" src="images/product5.png" alt="">
+    <h2 class="wrk_name">Acrylic Painting</h2>
+    <h2 class="wrk_rate">1500/-</h2>
+    <a href="form.html"><button class="wrk_btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" style="padding-right: 7px" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+      </svg>Buy Now</button></a>
+  </div>
+</div>
+<div class="wtsapp">
+  <button onclick="redirectToWhatsApp()"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" style="color: white;padding-top: 0.3rem" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg></button>
+</div>
+
+<div id="about">
+  <h3>About Me</h3>
+<div class="image-container" onmouseover="toggleImages()">
+  <img id="social" src="images/story.jpg" alt="">
+</div>
+  
+  <p>I am Renjith R, currently pursuing a diploma in computer engineering and recognized as an artist with over 105k subscribers on YouTube.</p>
+</div>
+<div class="social">
+  <a href="https://www.instagram.com/renjith_nooranad_?igsh=NHRic3JkeDR5eGZz">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="color: white" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg></a>
+<a href="https://youtube.com/@RenjithNooranad?si=LxAfjcVRZbqWvxPr">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="color: white;padding-left: 70px;" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg></a>
+<a href="https://www.facebook.com/profile.php?id=100073270658544"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="color: white;padding-left: 70px;" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></a>
+</div>
+
+<div class="card-container">
+  <div class="card r1"><br>
+    <p>"Love this art store! Amazing variety—watercolors, pencils, stencils, acrylics, and digital art. Found the perfect piece that speaks to me. Highly recommended!"</p><br>
+    <p style="font-weight: bolder">September 14 2023</p>
+    <img src="images/testimonial1.jpg" alt="">
+    <p class="p2" style="margin-left: 5rem;margin-top:-3.5rem;padding-bottom: -1rem"><span style="font-weight: bolder">Saneesh S</span><br>Student</p>
+  </div>
+  <div class="card r2">
+    <p>"This art store is fantastic! They have everything—watercolors, pencil drawings, color pencils, stencils, acrylics, and digital art. Found exactly what I was looking for. Great place for art lovers!"</p><br>
+    <p style="font-weight: bolder">December 21 2022</p>
+    <img src="images/testimonial2.png" alt="">
+    <p class="p2" style="margin-left: 5rem;margin-top:-3.1rem;padding-bottom: 2rem"><span style="font-weight: bolder">Vishnu</span><br>Businessman</p>
+  </div>
+  <div class="card r3">
+    <p>"This art store is incredible! They offer a wide range of art, from watercolors to pencil drawings, acrylics, and digital pieces. I found a stunning piece that adds so much character to my space. Definitely my new favorite spot for art!"</p><br>
+    <p style="font-weight: bolder">February 24 2022</p>
+    <img src="images/testimonial3.png" alt="">
+    <p class="p2" style="margin-left: 5rem;margin-top:-3.5rem;padding-bottom: 2rem"><span style="font-weight: bolder">Rahul</span><br>Entrepreneur</p>
+  </div>
+</div>
+
+<div class="content" style="padding-top: 1rem;padding-bottom: 2rem">
+
+  <h1 style="color: #FF0000;text-align: center;text-shadow: 1px 1px black"><span style="padding-right: 10px">  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="" fill="currentColor" class="bi bi-youtube" viewBox="0 -3 16 16">
+      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+    </svg></span>Youtube</h1>
+<iframe style="border-radius: 8px" width="310px" height="550px" src="https://www.youtube.com/embed/WMcZetYofGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img style="width: 85%; padding-top: 2.5rem;border-radius: 6px;" src="images/youtube.png" alt="">
+<a href="https://youtube.com/@RenjithNooranad?si=TepJ5ABMFwKVs4_u">
+<button id="tube" style="color: white;background-color: #FF0000;width: 35%;height: 30px;font-size: 20px;font-weight: bold;font-family: serif;border: none;border-radius: 4px;margin-top: 2rem">Youtube</button></a>
+</div>
+
+
+<div style="display: flex;justify-content: center">
+  <h1 style="color: white;padding-right: 6px;font-weight: lighter">_____________</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:white;padding-top: 2.6rem" class="bi bi-star-fill" viewBox="0 0 16 16">
+  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>
+<h1 style="color: white;text-align: right;padding-left: 6px;font-weight: lighter">_____________</h1>
+</div>
+<div class="content">
+  <h1 class="head">Handmade Pencil Sketch <br> - Best Personalized Gift</h1>
+  <h1 style="font-weight: lighter;color: white;margin-top: -1.5rem">________________________</h1>
+  <p style="color: white;padding-right: 25px;padding-left: 25px;
+  text-align: left;line-height: 1.5">When it comes to <span style="font-weight: bolder">personalized gift, handmade pencil sketch</span>  has become nowadays trend of wishing your loved ones in a very unique. You can order online a customized sketch of your desired sizes of the portrait sketches from Renjith Nooranad.</p><br><br>
+  <p style="color: white;font-weight: bolder;padding-left: 25px;padding-right: 25px;text-align: left;font-size: 20px">Why you should gift a portrait sketch?</p><br>
+ <p style="text-align: center;padding-right: 25px;line-height: 1.5"><li>Gifting a portrait sketch is a unique and <span style="padding-left: 30px">meaningful way to celebrate any special occasion.</span></li></p> 
+    <p style="text-align: center;padding-right: 25px;line-height: 1.5;text-align: left"><li style="padding-left: 28px;text-align: left">A portrait sketch serves as a lasting <br><span style="padding-left: 20px">tribute to the recipient, one that will be </span><span style="padding-left: 20px">cherished and remembered.</span></li></p> 
+    <p><li style="text-align: left;padding-left: 28px;padding-right: 25px">For someone special, like a grandparent <span style="padding-left: 20px"> or teacher, a portrait sketch will also be </span><span style="padding-left: 20px">a source of pride.</span></li></p>
+    <p><li style="text-align: left;padding-left: 28px;padding-right: 25px">It shows the recipient that you care <span style="padding-left: 20px">deeply and are willing to go the extra </span><span style="padding-left: 20px">mile to honor them.</span></li></p>
+    <a href="form.html">
+    <button class="medium">Choose Your Medium<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift-fill" viewBox="0 -3 16 16">
+  <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"/>
+</svg></button></a>
+</div>
+
+<div class="content cont2">
+  <h3>AWESOME CUSTOMER SUPPORT</h3>
+  <h1>Have a question?</h1>
+  <p style="padding-left: 20px;padding-right: 20px;line-height: 2">I’ve made it easy to find answers fast. If you prefer a more personalized experience, feel free to whatsapp me.</p>
+  <button onclick="redirectToWhatsApp()">Chat Now</button>
+</div>
+<div class="terms">
+  <img src="images/channel_logo.jpg" alt="">
+  <p>Handmade portrait sketch - a beautiful gift for your loved ones.</p>
+  <h1>Policies</h1>
+  <a href="terms.html">
+  <p>Terms and conditions</p></a>
+  <a href="terms.html">
+  <p>Return and Refund Policy</p></a>
+  <a href="terms.html">
+  <p id="cont">Privacy Policy</p></a>
+  <h1>Contact Me</h1>
+  <div id="contactForm">
+    <h2>Contact Owner</h2>
+    <form id="contact" method="post" action="mailto: renjithnrd3@gmail.com" enctype="text/plain" onsubmit="prepareEmail()">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label for="subject">Subject:</label><br>
+      <input type="text" id="subject" name="subject" required><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      
+      <button class="butn" type="submit">Send Message</button>
+    </form>
+  </div>
+  <h1 class="info">Contact info</h1>
+  <p>Pathanamthitta,Kerala-690504</p>
+  <p><span style= "font-weight: bold">Email</span> : renjithnrd3@gmail.com</p>
+  <div style="border-top: 2px solid white;margin-top: 20px">
+    <p style="color: white">Copyright © 2021 | Renjith Nooranad Arts | All Rights Reserved</p>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

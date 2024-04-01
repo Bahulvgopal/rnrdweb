@@ -1,0 +1,279 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 30px 8px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #706969;
+}
+span{
+  margin-top: -10px;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-size: 36px;
+  margin-right: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.topnav {
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  margin-top: -2px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.c_logo {
+  width: 14%;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.namer {
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  margin-top: -45px;
+  margin-left: 10px;
+  font-family: serif;
+}
+
+.openbtn {
+  font-size: 29px;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  right: 20px; /* Adjust the right position */
+}
+.main{
+  margin-left: 10px;
+  
+}
+.wtsapp {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 9999; /* Ensure the button appears above other content */
+}
+
+.wtsapp > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #00d95f;
+  border: none;
+  color: white;
+  font-size: 20px;
+
+  
+}
+select{
+  width: 250px;
+  height: 25px;
+  margin-left: 55px;
+  border: none;
+  background-color: #252528;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+form{
+  margin-top: 7rem;
+}
+input{
+  width: 250px;
+  height: 25px;
+  margin-left: 55px;
+  border: none;
+  background-color: #252528;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+form>h1{
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 12px;
+  font-family: monospace;
+ 
+}
+label{
+  color: white;
+  font-family: serif;
+  font-weight: initial;
+  margin-left: 55px;
+  font-size: 18px;
+}
+.btn_main{
+  margin-left: 105px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2596BE;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  margin-bottom: 130px;
+}
+.note{
+  margin: 20px;
+  text-align: center;
+  background-color: #42445A;
+  border-radius: 7px;
+  
+}
+.note>h1{
+  font-size: 25px;
+  
+}
+.note>p{
+  font-size: 13px;
+  padding-bottom: 18px;
+  margin-bottom: 50px;
+}
+.note_2{
+  margin: 20px;
+  text-align: center;
+  background-color: #42445A;
+  border-radius: 7px;
+  margin-top: -20px;
+}
+.note_2>h1{
+  font-size: 25px;
+  padding-top: 10px;
+}
+.note_2>p{
+  font-size: 13px;
+  padding-bottom: 18px;
+  margin-bottom: 50px;
+}
+.note_3{
+  margin: 20px;
+  text-align: center;
+  background-color: #42445A;
+  border-radius: 7px;
+  margin-top: -20px;
+}
+.note_3>h1{
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+.note_3>p{
+  font-size: 13px;
+  padding-bottom: 18px;
+  margin-bottom: 50px;
+  color: white;
+}
+.terms{
+  background-color: black;
+  text-align: center;
+  border-top: 2px solid white;
+}
+.terms>img{
+  width: 80px;
+  margin-top: 50px;
+}
+.terms>p{
+  color: white;
+}
+.terms>h1{
+  color: white;
+  margin-top: 70px;
+}
+.terms>a{
+  text-decoration: none;
+  color: white;
+}
+#contactForm>form{
+  margin-top: -2.2rem;
+  margin-left: -50px;
+}
+textarea{
+  width: 250px;
+  height: 50px;
+  margin-left: 55px;
+  border: none;
+  background-color: #252528;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.butn{
+  margin-left: 50px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #2596BE;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  
+  border-radius: 10px;
+}
+.info{
+  font-weight: initial;
+}
+.wtsapp {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 9999; /* Ensure the button appears above other content */
+}
+
+.wtsapp > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #00d95f;
+  border: none;
+  color: white;
+  font-size: 20px;
+}

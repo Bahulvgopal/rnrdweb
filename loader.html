@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loading...</title>
+  <style>
+    body {
+      background-color: black; /* Set the background color to black */
+      opacity: 1; /* Initially set opacity to 1 */
+      transition: opacity 1s ease; /* Apply transition effect */
+    }
+
+    .ball {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+    }
+
+    .parent1 {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 350px;
+    }
+
+    .ball {
+      animation: loader 1500ms infinite ease-in-out; /* Apply the animation */
+    }
+
+    @keyframes loader {
+      50% {
+        transform: translateY(-30px);
+        background-color: white;
+      }
+      100% {
+        transform: translateY(0px);
+        background-color: black; /* Ensure the background color stays black */
+      }
+    }
+
+    .child2 {
+      animation-delay: 100ms;
+    }
+
+    .child3 {
+      animation-delay: 200ms;
+    }
+
+    .child4 {
+      animation-delay: 300ms;
+    }
+
+    .child5 {
+      animation-delay: 400ms;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="parent">
+    <div class="parent1">
+      <div class="child1 ball"></div>
+      <div class="child2 ball"></div>
+      <div class="child3 ball"></div>
+      <div class="child4 ball"></div>
+      <div class="child5 ball"></div>
+    </div>
+  </div>
+
+  <script>
+    // Wait for 3 seconds and then fade out the loader and open index.html
+    setTimeout(() => {
+      document.body.style.opacity = 0; // Fade out the loader
+      setTimeout(() => {
+        window.location.href = "index1.html"; // Redirect to index.html after fade out
+      }, 1000); // Wait for 1 second for the fade out transition to complete
+    }, 3000); // Wait for 3 seconds before fading out
+  </script>
+
+</body>
+
+</html>
